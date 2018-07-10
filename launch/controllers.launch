@@ -5,7 +5,7 @@
     <include file="$(eval find('gummi_base_' + base) + '/launch/controllers_base.launch')">
       <!--arg name="base" value="$(arg base)"/-->
     </include>
-    <include file="$(eval find('gummi_ee_' + ee) + '/launch/controllers_ee.launch')">
+    <!-- <include file="$(eval find('gummi_ee_' + ee) + '/launch/controllers_ee.launch')"> -->
        <!--arg name="ee" value="$(arg ee)"/-->
-    </include>
+    <!-- </include> -->
 </launch>
