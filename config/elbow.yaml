@@ -7,15 +7,16 @@ equilibrium:
     nameExtensor: "triceps"
     servoRange: 6.2832
     servoOffset: 0.0
-    loadLimit: 0.5  # Testing limitLoad method in equilibrium_model.py.
+    loadLimit: 0.5      # Testing limitLoad method in equilibrium_model.py.
 signEncoder: 1
 signJoint: 1
 name: "elbow"
 nameEncoder: "elbow_encoder"
-minAngle: -1.7
-maxAngle: 0.47
+minAngle: -1.0
+maxAngle: 0.5
 maxAbsForwardError: 0.7
 gains:
     P: 0.04
     I: 0.00002
     D: 0.2
+restingPoseAngle: -1.0 # Parameter to adjusting resting pose joint angle.
