@@ -4,7 +4,7 @@ shoulder_abductor_controller:
         module: joint_position_controller
         type: JointPositionController
     joint_name: shoulder_abductor
-    joint_speed: 100
+    joint_speed: 10.0
     motor:
         id: 2
         init: 14333
