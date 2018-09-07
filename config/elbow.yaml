@@ -1,8 +1,8 @@
 calibrated: 1
 equilibrium:
     sign: 1
-    signFlexor: 1
-    signExtensor: 1
+    signFlexor: -1
+    signExtensor: -1
     nameFlexor: "biceps"
     nameExtensor: "triceps"
     servoRange: 6.2832
@@ -12,11 +12,11 @@ signEncoder: 1
 signJoint: 1
 name: "elbow"
 nameEncoder: "elbow_encoder"
-minAngle: -1.0
-maxAngle: 0.5
+minAngle: -2.2
+maxAngle: -0.2
 maxAbsForwardError: 0.7
 gains:
     P: 0.04
     I: 0.00002
     D: 0.2
-restingPoseAngle: -1.0 # Parameter to adjusting resting pose joint angle.
+restingPoseAngle: -1.5 # Parameter to adjusting resting pose joint angle.
