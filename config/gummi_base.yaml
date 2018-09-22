@@ -12,7 +12,7 @@ joints:
     antagonist: True
   shoulder_roll:
     effort: 0.25
-    gradual_startup_position: -0.0
+    gradual_startup_position: 0.0
     gradual_startup_time: 1.0
     antagonist: True
   shoulder_pitch:
