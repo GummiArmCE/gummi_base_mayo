@@ -12,11 +12,11 @@ signEncoder: -1
 signJoint: 1
 name: "shoulder_yaw"
 nameEncoder: "shoulder_yaw_encoder"
-minAngle: -1.2
-maxAngle: 1.2
+minAngle: -0.8
+maxAngle: 0.8
 maxAbsForwardError: 0.25
 gains:
-    P: 0.015
+    P: 0.025
     I: 0.00002
     D: 0.1
 restingPoseAngle: 0.05 # Parameter to adjusting resting pose joint angle.
