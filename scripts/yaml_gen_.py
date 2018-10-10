@@ -26,10 +26,10 @@ if  len(sys.argv) != 4:
     raise NameError('Function needs 3 arguments: source_yaml_file_1 source_yaml_file_2  output_yaml_file ')
 
 with open(sys.argv[1], 'r') as stream:
-    data1 = ruamel.yaml.round_trip_load(stream)
+    data1 = ruamel.yaml.load(stream)
 
 with open(sys.argv[2], 'r') as stream:
-    data2 = ruamel.yaml.round_trip_load(stream)
+    data2 = ruamel.yaml.load(stream)
 
 data_both = merge(data1,data2)
 
@@ -40,5 +40,5 @@ stream.write("# Edit file " + sys.argv[1] + " #\n" )
 stream.write("# And file " + sys.argv[2] + " instead. #\n" )
 stream.write("##########################################################################################\n")
 
-ruamel.yaml.round_trip_dump(data_both, stream, default_flow_style=False)    # Write a YAML representation of data to 'document.yaml'.
+ruamel.yaml.dump(data_both, stream, default_flow_style=False)    # Write a YAML representation of data to 'document.yaml'.
 # print ruamel.yaml.round_trip_dump(data_both, default_flow_style=False)      # Output the document to the screen.
