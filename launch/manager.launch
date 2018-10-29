@@ -18,7 +18,7 @@
                     max_motor_id: 60
                     update_rate: 100
                 gummi_se:
-                    port_name: "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT1YF093-if00-port0"
+                    port_name: "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT2KQB6U-if00-port0"
                     baud_rate: 1000000
                     min_motor_id: 1
                     max_motor_id: 60
