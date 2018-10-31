@@ -26,10 +26,10 @@ if  len(sys.argv) != 4:
     raise NameError('Function needs 3 arguments: source_yaml_file_1 source_yaml_file_2  output_yaml_file ')
 
 with open(sys.argv[1], 'r') as stream:
-    data1 = ruamel.yaml.round_trip_load(stream)
+    data1 = ruamel.yaml.load(stream)
 
 with open(sys.argv[2], 'r') as stream:
-    data2 = ruamel.yaml.round_trip_load(stream)
+    data2 = ruamel.yaml.load(stream)
 
 data_both = merge(data1,data2)
 
