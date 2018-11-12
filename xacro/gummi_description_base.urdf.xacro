@@ -5,7 +5,7 @@
     <inertial>
       <origin
         xyz="-9.81410393552373E-06 -0.0460000689343235 -0.0065295158451983"
-        rpy="0 0 0" />
+        rpy="0 3.14159 0" />
       <mass
         value="0.335467320988356" />
       <inertia
@@ -18,8 +18,8 @@
     </inertial>
     <visual>
       <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+        xyz="0 0 0.01"
+        rpy="0 3.14159 0" />
       <geometry>
         <mesh
           filename="package://gummi_base_$(env ROS_GUMMI_BASE)/meshes/base_link.STL" />
@@ -32,8 +32,8 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+        xyz="0 0 0.01"
+        rpy="0 3.14159 0" />
       <geometry>
         <mesh
           filename="package://gummi_base_$(env ROS_GUMMI_BASE)/meshes/base_link.STL" />
@@ -85,7 +85,7 @@
     type="revolute">
     <origin
       xyz="-0.00027025 -0.10997 0.008"
-      rpy="0 0 0" />
+      rpy="0 3.14159 0" />
     <parent
       link="base_link" />
     <child
@@ -103,7 +103,7 @@
     <inertial>
       <origin
         xyz="-6.6912E-05 -0.10412 4.2145E-06"
-        rpy="0 0 0" />
+        rpy="0 3.14159 0" />
       <mass
         value="0.32611" />
       <inertia
@@ -117,7 +117,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="0 3.14159 0" />
       <geometry>
         <mesh
           filename="package://gummi_base_$(env ROS_GUMMI_BASE)/meshes/shoulder.STL" />
@@ -131,7 +131,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="0 3.14159 0" />
       <geometry>
         <mesh
           filename="package://gummi_base_$(env ROS_GUMMI_BASE)/meshes/shoulder.STL" />
@@ -143,7 +143,7 @@
     type="revolute">
     <origin
       xyz="-2.6378E-05 0.057605 0.1302"
-      rpy="0 0 0" />
+      rpy="0 3.14159 0" />
     <parent
       link="shoulder_preroll" />
     <child
