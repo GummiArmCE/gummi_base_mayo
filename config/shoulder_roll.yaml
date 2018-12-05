@@ -8,6 +8,7 @@ equilibrium:
     servoRange: 12.5664
     servoOffset: 0.0
     loadLimit: 0.5  # Testing limitLoad method in equilibrium_model.py.
+    eqVelCalibration: 5.0
 signEncoder: 1
 signJoint: 1
 name: "shoulder_roll"
@@ -16,7 +17,7 @@ minAngle: -1.7
 maxAngle: 1.5
 maxAbsForwardError: 0.6
 gains:
-    P: 0.015
+    P: 0.0225
     I: 0.00002
     D: 0.1
 restingPoseAngle: -0.5 # Parameter to adjusting resting pose joint angle.

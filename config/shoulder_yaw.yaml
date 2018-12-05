@@ -8,12 +8,13 @@ equilibrium:
     servoRange: 12.5664
     servoOffset: 0.0
     loadLimit: 0.5  # Testing limitLoad method in equilibrium_model.py.
+    eqVelCalibration: 4.0
 signEncoder: -1
 signJoint: 1
 name: "shoulder_yaw"
 nameEncoder: "shoulder_yaw_encoder"
-minAngle: -0.8
-maxAngle: 0.8
+minAngle: -1
+maxAngle: 1
 maxAbsForwardError: 0.25
 gains:
     P: 0.025
