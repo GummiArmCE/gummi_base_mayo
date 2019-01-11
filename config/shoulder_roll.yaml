@@ -20,4 +20,4 @@ gains:
     P: 0.0225
     I: 0.00002
     D: 0.1
-restingPoseAngle: -0.5 # Parameter to adjusting resting pose joint angle.
+restingPoseAngle: -0.75 # Parameter to adjusting resting pose joint angle.
