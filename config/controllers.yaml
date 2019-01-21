@@ -9,6 +9,7 @@ controller_list:
       - upperarm_roll
       - elbow
       - wrist_pitch
+      - forearm_roll
   # - name: fake_right_gripper_controller
     # joints:
       # - gripper
