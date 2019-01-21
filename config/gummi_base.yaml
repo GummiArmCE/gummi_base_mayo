@@ -6,17 +6,17 @@ velocity_control: 0
 
 joints:
   shoulder_yaw:
-    effort: 0.4
+    effort: 0.6
     gradual_startup_position: 0.1
     gradual_startup_time: 1.0
     antagonist: True
   shoulder_roll:
-    effort: 0.25
+    effort: 0.4
     gradual_startup_position: 0.0
     gradual_startup_time: 1.0
     antagonist: True
   shoulder_pitch:
-    effort: 0.6
+    effort: 0.8
     gradual_startup_position: -0.375
     gradual_startup_time: 1.0
     antagonist: True
