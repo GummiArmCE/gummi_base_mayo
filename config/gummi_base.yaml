@@ -1,4 +1,4 @@
-teleop: 0
+teleop: 1
 velocity_control: 0
 
 # Here we use the JOINT names instead of the
