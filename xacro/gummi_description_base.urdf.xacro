@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <robot>
+
   <link
     name="base_link">
     <inertial>
@@ -85,7 +86,7 @@
     type="revolute">
     <origin
       xyz="-0.00027025 -0.10997 0.008"
-      rpy="0 0 0" />
+      rpy="3.14159 0 3.14159" />
     <parent
       link="base_link" />
     <child
@@ -143,7 +144,7 @@
     type="revolute">
     <origin
       xyz="-2.6378E-05 0.057605 0.1302"
-      rpy="0 0 0" />
+      rpy="0 3.14159 0" />
     <parent
       link="shoulder_preroll" />
     <child
