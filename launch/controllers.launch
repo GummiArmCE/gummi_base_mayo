@@ -9,3 +9,19 @@
        <!--arg name="ee" value="$(arg ee)"/-->
     </include>
 </launch>
+
+
+
+<!-- Sanity Checks -->
+
+<!--
+
+  See what catkin workspaces ROS can accesss:
+
+  $: export | grep ROS
+
+  Find that special package:
+
+  $: rospack find my_special_package
+
+-->
